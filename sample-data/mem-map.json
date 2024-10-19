@@ -1,0 +1,122 @@
+[
+    {
+        "mem-id": "m1",
+        "images": ["image1.jpg", "image2.jpg"],
+        "text": "This is my dad. He is wearing a blue shirt. He used to work in a bank.",
+        "metadata": {}
+    },
+    {
+        "mem-id": "m2",
+        "images": ["wedding.jpg"],
+        "text": "This is my wedding day. I was wearing a white dress, and my husband was in a black suit. It was a sunny day in June, and we were surrounded by family and friends.",
+        "metadata": {}
+    },
+    {
+        "mem-id": "m3",
+        "images": ["grandchild1.jpg", "grandchild2.jpg"],
+        "text": "These are my grandchildren, Emily and Jack. Emily loves to paint, and Jack plays football every weekend. We used to visit the park every Sunday together.",
+        "metadata": {}
+    },
+    {
+        "mem-id": "m4",
+        "images": ["childhood_home.jpg"],
+        "text": "This is my childhood home. It was a small house with a red door and a large oak tree in the front yard. I grew up here with my two sisters and my parents.",
+        "metadata": {}
+    },
+    {
+        "mem-id": "m5",
+        "images": ["holiday_beach.jpg"],
+        "text": "This is the beach where I used to go on holidays every summer with my family. The sound of the waves and the smell of the ocean always bring back good memories.",
+        "metadata": {}
+    },
+    {
+        "mem-id": "m6",
+        "images": ["favorite_pet.jpg"],
+        "text": "This is my dog, Max. He was a golden retriever, and I used to take him for walks every morning. He loved playing fetch in the backyard.",
+        "metadata": {}
+    },
+    {
+        "mem-id": "m7",
+        "images": ["anniversary.jpg"],
+        "text": "This is our 25th wedding anniversary. We celebrated it at our favorite restaurant, with all our close friends and family. I remember the cake had roses made of sugar.",
+        "metadata": {}
+    },
+    {
+        "mem-id": "m8",
+        "images": ["office.jpg"],
+        "text": "This is my old office. I worked here for 30 years as an accountant. My desk was always neat, and I enjoyed organizing company finances.",
+        "metadata": {}
+    },
+    {
+        "mem-id": "m9",
+        "images": ["son.jpg", "son_graduation.jpg"],
+        "text": "This is my son. He graduated from university with a degree in engineering. I remember how proud I was watching him walk across the stage to get his diploma.",
+        "metadata": {}
+    },
+    {
+        "mem-id": "m10",
+        "images": ["favorite_restaurant.jpg"],
+        "text": "This is my favorite restaurant where we used to go every Friday night. I always ordered the spaghetti, and the waiters knew our names. It was our special family tradition.",
+        "metadata": {}
+    },
+    {
+        "mem-id": "m11",
+        "images": ["first_car.jpg"],
+        "text": "This is my first car. It was a blue Volkswagen Beetle. I bought it with my first paycheck, and I remember driving it down to the beach with my friends.",
+        "metadata": {}
+    },
+    {
+        "mem-id": "m12",
+        "images": ["garden.jpg"],
+        "text": "This is my garden. I used to spend hours planting flowers, especially tulips. My favorite was the red tulips, and they always bloomed in the spring.",
+        "metadata": {}
+    },
+    {
+        "mem-id": "m13",
+        "images": ["vacation.jpg"],
+        "text": "This is the mountain cabin where we used to go on vacation. It was surrounded by pine trees, and at night, the stars were so bright. I remember roasting marshmallows by the fire.",
+        "metadata": {}
+    },
+    {
+        "mem-id": "m14",
+        "images": ["family_photo.jpg"],
+        "text": "This is a photo of our family reunion. It was the last time all of us were together, laughing and sharing stories. My sister made her famous apple pie that day.",
+        "metadata": {}
+    },
+    {
+        "mem-id": "m15",
+        "images": ["old_school.jpg"],
+        "text": "This is my old school. I used to walk here every day. I remember playing on the swings during recess and how proud I felt when I graduated from this school.",
+        "metadata": {}
+    },
+    {
+        "mem-id": "m16",
+        "images": ["parents.jpg"],
+        "text": "These are my parents. My mother loved to bake, and my father was a teacher. I used to help my mother in the kitchen, and I remember my father's stories from his students.",
+        "metadata": {}
+    },
+    {
+        "mem-id": "m17",
+        "images": ["family_vacation.jpg"],
+        "text": "This is a photo from our family vacation to Paris. We visited the Eiffel Tower, and I remember having coffee at a small café by the river.",
+        "metadata": {}
+    },
+    {
+        "mem-id": "m18",
+        "images": ["graduation.jpg"],
+        "text": "This is my graduation day from university. I wore a cap and gown, and my parents were there to support me. It was a big achievement for me.",
+        "metadata": {}
+    },
+    {
+        "mem-id": "m19",
+        "images": ["wedding_anniversary.jpg"],
+        "text": "This is our 40th wedding anniversary. We celebrated with a small gathering of close friends. I remember the beautiful bouquet of red roses my husband gave me.",
+        "metadata": {}
+    },
+    {
+        "mem-id": "m20",
+        "images": ["first_house.jpg"],
+        "text": "This is the first house we bought together. It was a small, cozy home, and we spent our first Christmas here. I remember decorating the tree with homemade ornaments.",
+        "metadata": {}
+    }
+]

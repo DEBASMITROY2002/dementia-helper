@@ -1,0 +1,182 @@
+[
+    {
+        "event-id": "e1",
+        "text": "I have put my keys on the table beside the fridge.",
+        "location": [10, 10, 20],
+        "retention-period": "short",
+        "timestamp": "2024-01-01T08:30:00Z",
+        "related-events": ["e1"],
+        "metadata": {}
+    },
+    {
+        "event-id": "e2",
+        "text": "I left my glasses in the bedroom on the nightstand.",
+        "location": [14, 8, 10],
+        "retention-period": "medium",
+        "timestamp": "2024-01-01T09:15:00Z",
+        "related-events": ["e2"],
+        "metadata": {}
+    },
+    {
+        "event-id": "e3",
+        "text": "I turned off the stove in the kitchen after cooking breakfast.",
+        "location": [8, 10, 5],
+        "retention-period": "short",
+        "timestamp": "2024-01-01T09:45:00Z",
+        "related-events": ["e2", "e3"],
+        "metadata": {}
+    },
+    {
+        "event-id": "e4",
+        "text": "I placed my wallet on the coffee table in the living room.",
+        "location": [12, 12, 8],
+        "retention-period": "short",
+        "timestamp": "2024-01-01T10:00:00Z",
+        "related-events": ["e4"],
+        "metadata": {}
+    },
+    {
+        "event-id": "e5",
+        "text": "I took my medication and left the bottle on the bathroom sink.",
+        "location": [6, 14, 2],
+        "retention-period": "short",
+        "timestamp": "2024-01-01T11:00:00Z",
+        "related-events": ["e5"],
+        "metadata": {}
+    },
+    {
+        "event-id": "e6",
+        "text": "I watered the plant in the corner of the living room.",
+        "location": [15, 12, 20],
+        "retention-period": "medium",
+        "timestamp": "2024-01-01T11:30:00Z",
+        "related-events": ["e6"],
+        "metadata": {}
+    },
+    {
+        "event-id": "e7",
+        "text": "I moved the chair to the dining table after breakfast.",
+        "location": [10, 10, 5],
+        "retention-period": "short",
+        "timestamp": "2024-01-01T12:00:00Z",
+        "related-events": ["e3", "e7"],
+        "metadata": {}
+    },
+    {
+        "event-id": "e8",
+        "text": "I hung up my jacket in the hallway closet.",
+        "location": [5, 8, 2],
+        "retention-period": "long",
+        "timestamp": "2024-01-01T12:30:00Z",
+        "related-events": ["e8"],
+        "metadata": {}
+    },
+    {
+        "event-id": "e9",
+        "text": "I placed my phone charger on the kitchen counter.",
+        "location": [8, 12, 6],
+        "retention-period": "short",
+        "timestamp": "2024-01-01T13:00:00Z",
+        "related-events": ["e9"],
+        "metadata": {}
+    },
+    {
+        "event-id": "e10",
+        "text": "I left my book on the couch in the living room.",
+        "location": [14, 10, 4],
+        "retention-period": "short",
+        "timestamp": "2024-01-01T13:30:00Z",
+        "related-events": ["e10"],
+        "metadata": {}
+    },
+    {
+        "event-id": "e11",
+        "text": "I switched off the lights in the bedroom before going out.",
+        "location": [7, 7, 2],
+        "retention-period": "short",
+        "timestamp": "2024-01-01T14:00:00Z",
+        "related-events": ["e2", "e11"],
+        "metadata": {}
+    },
+    {
+        "event-id": "e12",
+        "text": "I placed a grocery bag on the kitchen table.",
+        "location": [12, 10, 8],
+        "retention-period": "short",
+        "timestamp": "2024-01-01T14:30:00Z",
+        "related-events": ["e12"],
+        "metadata": {}
+    },
+    {
+        "event-id": "e13",
+        "text": "I locked the front door before leaving the house.",
+        "location": [2, 10, 1],
+        "retention-period": "medium",
+        "timestamp": "2024-01-01T15:00:00Z",
+        "related-events": ["e13"],
+        "metadata": {}
+    },
+    {
+        "event-id": "e14",
+        "text": "I took a nap on the sofa in the living room.",
+        "location": [14, 10, 6],
+        "retention-period": "short",
+        "timestamp": "2024-01-01T15:30:00Z",
+        "related-events": ["e14"],
+        "metadata": {}
+    },
+    {
+        "event-id": "e15",
+        "text": "I adjusted the thermostat in the hallway.",
+        "location": [3, 8, 2],
+        "retention-period": "medium",
+        "timestamp": "2024-01-01T16:00:00Z",
+        "related-events": ["e15"],
+        "metadata": {}
+    },
+    {
+        "event-id": "e16",
+        "text": "I read my mail while sitting at the dining table.",
+        "location": [10, 10, 4],
+        "retention-period": "short",
+        "timestamp": "2024-01-01T16:30:00Z",
+        "related-events": ["e16"],
+        "metadata": {}
+    },
+    {
+        "event-id": "e17",
+        "text": "I charged my phone next to the TV in the living room.",
+        "location": [12, 10, 5],
+        "retention-period": "short",
+        "timestamp": "2024-01-01T17:00:00Z",
+        "related-events": ["e17"],
+        "metadata": {}
+    },
+    {
+        "event-id": "e18",
+        "text": "I opened the window in the bedroom for fresh air.",
+        "location": [6, 6, 10],
+        "retention-period": "short",
+        "timestamp": "2024-01-01T17:30:00Z",
+        "related-events": ["e18"],
+        "metadata": {}
+    },
+    {
+        "event-id": "e19",
+        "text": "I placed my laptop on the desk in the study room.",
+        "location": [18, 15, 10],
+        "retention-period": "short",
+        "timestamp": "2024-01-01T18:00:00Z",
+        "related-events": ["e19"],
+        "metadata": {}
+    },
+    {
+        "event-id": "e20",
+        "text": "I watched TV while sitting on the couch in the living room.",
+        "location": [14, 10, 6],
+        "retention-period": "short",
+        "timestamp": "2024-01-01T18:30:00Z",
+        "related-events": ["e20"],
+        "metadata": {}
+    }
+]
