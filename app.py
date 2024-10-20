@@ -35,8 +35,8 @@ def generate_audio_answer(text, language, output_file_path):
     
 def iniatlize_config():
     GLOBAL_CONFIG['data_folder'] = "./data"
-    GLOBAL_CONFIG['upload_folder'] = f"./{GLOBAL_CONFIG['data_folder']}/uploads"
-    GLOBAL_CONFIG['processed_folder'] = f"./{GLOBAL_CONFIG['data_folder']}/processed"
+    GLOBAL_CONFIG['upload_folder'] = f"{GLOBAL_CONFIG['data_folder']}/uploads"
+    GLOBAL_CONFIG['processed_folder'] = f"{GLOBAL_CONFIG['data_folder']}/processed"
     GLOBAL_CONFIG['audio_upload_folder'] = f"{GLOBAL_CONFIG['upload_folder']}/audio"
     GLOBAL_CONFIG['image_upload_folder'] = f"{GLOBAL_CONFIG['upload_folder']}/image"
     GLOBAL_CONFIG['audio_processed_folder'] = f"{GLOBAL_CONFIG['processed_folder']}/audio"
