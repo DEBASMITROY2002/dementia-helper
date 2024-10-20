@@ -1,0 +1,58 @@
+[
+    {
+        "location": [10, 10, 20],
+        "loc-id": "loc1",
+        "short-description": "living room",
+        "long-description": "The living room is spacious with a large, plush couch facing a wall-mounted TV. There is a coffee table in front of the couch with a few magazines scattered across it. To the left of the TV, there is a bookshelf filled with books and photo frames. A large window provides a view of the garden outside. The room is connected to the kitchen via a sliding glass door.",
+        "objects": ["couch", "TV", "coffee table", "bookshelf", "window"],
+        "metadata": {}
+    },
+    {
+        "location": [8, 12, 5],
+        "loc-id": "loc2",
+        "short-description": "kitchen",
+        "long-description": "The kitchen is modern, with white countertops and stainless steel appliances. There is an island in the center with bar stools, where meals are often eaten. A large refrigerator stands next to the oven and stove, and above the counter is a microwave. The sink is placed near a small window that overlooks the backyard. A door leads to the pantry, which is stocked with various ingredients.",
+        "objects": ["refrigerator", "oven", "stove", "sink", "microwave", "pantry"],
+        "metadata": {}
+    },
+    {
+        "location": [5, 8, 2],
+        "loc-id": "loc3",
+        "short-description": "bedroom",
+        "long-description": "The bedroom is cozy, with a queen-sized bed against the far wall. The bed has a dark wooden headboard and is covered in soft blankets. On either side of the bed are nightstands with lamps. There is a large wardrobe opposite the bed, next to a full-length mirror. The room also has a small reading nook by the window, which lets in plenty of natural light. A door leads to an attached bathroom.",
+        "objects": ["bed", "nightstand", "lamp", "wardrobe", "mirror", "window"],
+        "metadata": {}
+    },
+    {
+        "location": [6, 14, 2],
+        "loc-id": "loc4",
+        "short-description": "bathroom",
+        "long-description": "The bathroom is tiled with marble, giving it a clean and elegant look. A large mirror hangs above the sink, which is next to a spacious shower with glass doors. The shower has both a rainfall showerhead and a handheld sprayer. There is a bathtub on the other side of the room, next to a linen closet filled with towels. The toilet is situated in a small alcove near the window.",
+        "objects": ["sink", "mirror", "shower", "bathtub", "toilet", "linen closet"],
+        "metadata": {}
+    },
+    {
+        "location": [12, 15, 5],
+        "loc-id": "loc5",
+        "short-description": "dining room",
+        "long-description": "The dining room features a large, rectangular wooden table surrounded by six chairs. A chandelier hangs overhead, providing a warm glow during meals. The table is set with placemats, and a fruit bowl sits in the center. On one side of the room, there is a cabinet filled with fine china and glassware, while the opposite side has a large window with curtains drawn back to reveal a view of the patio outside.",
+        "objects": ["dining table", "chairs", "chandelier", "cabinet", "fruit bowl", "window"],
+        "metadata": {}
+    },
+    {
+        "location": [7, 14, 3],
+        "loc-id": "loc6",
+        "short-description": "study room",
+        "long-description": "The study is quiet and well-organized, with a wooden desk in the center. The desk has a computer, a lamp, and some notebooks neatly stacked to one side. There is a bookshelf against the wall, filled with reference books, novels, and a few decorative items. A comfortable chair sits by the window, creating a perfect reading spot. The room also has a small cabinet where important documents are stored.",
+        "objects": ["desk", "computer", "lamp", "bookshelf", "chair", "cabinet"],
+        "metadata": {}
+    },
+    {
+        "location": [3, 12, 0],
+        "loc-id": "loc7",
+        "short-description": "garage",
+        "long-description": "The garage is spacious, with enough room for a car and plenty of storage. A workbench is set up along the far wall, covered with tools and materials for various home projects. There are shelves filled with boxes and household items like cleaning supplies, spare light bulbs, and seasonal decorations. Bicycles hang from the ceiling, and a lawnmower is parked in one corner. The garage door opens automatically with a remote.",
+        "objects": ["car", "workbench", "tools", "shelves", "bicycles", "lawnmower"],
+        "metadata": {}
+    }
+]
