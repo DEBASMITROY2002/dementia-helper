@@ -96,9 +96,10 @@ def process_input():
 
         if output_text:
             outut_processed_path = f"{GLOBAL_CONFIG['audio_processed_folder']}/{user_id}.wav"
-            output_audio = generate_audio_answer(input_text, 
+            output_audio = generate_audio_answer(output_text, 
                                                  language, 
                                                  outut_processed_path)
+            print("Output text ----> ", output_text)
             # # base64 encode the audio file"
             with open(outut_processed_path, "rb") as audio:
                 encoded_output_audio = base64.b64encode(audio.read()).decode('utf-8')
