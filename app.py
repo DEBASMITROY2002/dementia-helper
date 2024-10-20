@@ -47,12 +47,25 @@ def iniatlize_config():
             if not os.path.exists(GLOBAL_CONFIG[key]):
                 os.makedirs(GLOBAL_CONFIG[key])
 
+
+def temp_processing(text, img = False):
+    try:
+        if "key" in text:
+            return "Probably you are talking about the key to the door. You have left it on the table in the drawin room at around 10:00 AM"
+        if "water" in text:
+            return "You drank water at around 30 minutes ago. You should drink water again after 1 hour"
+    except Exception as e:
+        return None
+    if img == True:
+        return "This is a picture of your dad. his name is Jack. He used to love your pet Nook. He used to play with him a lot."
+    return None
+
 @app.route('/query-input', methods=['POST'])
 def process_input():
     try:
         user_id = request.form.get('user_id')
         time_stamp = request.form.get('time_stamp')
-        input_text = request.form.get('input_text')
+        input_text = request.form.get('input_text',"")
         audio_file = request.files.get('audio')
         image_file = request.files.get('image')
         language = request.form.get('language', 'en')
@@ -68,12 +81,20 @@ def process_input():
             image_file_path = f"{GLOBAL_CONFIG['image_upload_folder']}/{user_id}.png"
             image_file.save(image_file_path)
 
-        # Process the input
-        output_text = None
+        audio_text = ""
         output_audio = None
         encoded_output_audio = None
 
-        if input_text:
+        # Process the input
+        if audio_file:
+            audio_text = transcribe_audio(audio_file_path)[0].get('transcribed_text')
+            print("audio_text ----> ", audio_text)
+        
+        total_text = f"{input_text} {audio_text}"
+        output_text = temp_processing(total_text, img = image_file is not None)
+        encoded_output_audio = None
+
+        if output_text:
             outut_processed_path = f"{GLOBAL_CONFIG['audio_processed_folder']}/{user_id}.wav"
             output_audio = generate_audio_answer(input_text, 
                                                  language, 
@@ -81,10 +102,7 @@ def process_input():
             # # base64 encode the audio file"
             with open(outut_processed_path, "rb") as audio:
                 encoded_output_audio = base64.b64encode(audio.read()).decode('utf-8')
-
-        if audio_file:
-            output_text = transcribe_audio(audio_file_path)
-
+            
         # Response
         response = {
             'user_id': user_id,

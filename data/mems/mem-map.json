@@ -1,0 +1,63 @@
+[
+    {
+        "mem-id": "m0",
+        "image": "./data/mems/imgs/0.png",
+        "text": "This is my niece Sarah. She is 15 years old. He is with her dog Keyush. Also in the picture there is my dog, Nook as well",
+        "metadata": {}
+    },
+    {
+        "mem-id": "m1",
+        "image": "./data/mems/imgs/1.png",
+        "text": "My dog Nook with his friend Keyush and Sherpa. They are siting on the beach. We used to go to the beach every weekend during autumn",
+        "metadata": {}
+    },
+    {
+        "mem-id": "m2",
+        "image": "./data/mems/imgs/2.png",
+        "text": "It is me, John. I am with my niece Sarah. Our dogs are with us. We are in the beach",
+        "metadata": {}
+    },
+    {
+        "mem-id":"m3",
+        "image": "./data/mems/imgs/3.png",
+        "text": "This is me standing and playing with my dog Nook. We are in the beach. It is a sunny day",
+        "metadata": {}
+    },
+    {
+        "mem-id":"m4",
+        "image": "./data/mems/imgs/4.png",
+        "text": "Nook in my car. I am driving. We are going to the beach. Nook loves to go to the beach. I used to own a van",
+        "metadata": {}
+    },
+    {
+        "mem-id":"m7",
+        "image": "./data/mems/imgs/7.png",
+        "text": "I, my daughter, Chloé and my mother. We are in the same van. Our dogs are with us. I am driving. We are going to the beach",
+        "metadata": {}
+    },
+    {
+        "mem-id":"m9",
+        "image": "./data/mems/imgs/9.png",
+        "url":"https://drive.google.com/uc?export=view&id=1Fi7L-q_fP8kHo4TgD1aXY-PLiA3tDsIy",
+        "text": "Me and My daughter Chloé. We are in a van",
+        "metadata": {}
+    },
+    {
+        "mem-id":"m10",
+        "image": "./data/mems/imgs/10.png",
+        "text": "This is my van. It is a Volkswagen. Bright red. I used to go to the beach with my family and dogs",
+        "metadata": {}
+    },
+    {
+        "mem-id":"m12",
+        "image": "./data/mems/imgs/12.png",
+        "text": "Christmas 2019. My dog nook sitting in front of the Christmas tree. We used to celebrate Christmas with my family",
+        "metadata": {}
+    },
+    {
+        "mem-id":"m19",
+        "image": "./data/mems/imgs/19.png",
+        "text": "My dad! Jack. Wearing blue polo shirt. He used to love eating ice cream.",
+        "metadata": {}
+    }
+]
